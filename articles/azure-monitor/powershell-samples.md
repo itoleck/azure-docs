@@ -53,7 +53,7 @@ Use the [Get-AzLog](/powershell/module/az.monitor/get-azlog) cmdlet.  The follow
 
 See what the current date/time are to verify what times to use in the commands below:
 ```powershell
-Get-Date
+(Get-Date -format yyyy-mm-ddThh:mm)
 ```
 
 Get log entries from this time/date to present:
